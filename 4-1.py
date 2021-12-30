@@ -1,5 +1,6 @@
 #find the coordinates of the last position
 
+#1. naive version
 l = int(input())
 a = list(input().split()) # L R U D
 
@@ -25,7 +26,7 @@ for i in a:
 
 print(y,x) #O(len(a))
 
-''' fix the motion in list, and do not repeat the same operation.
+#2. fix the motion in list, and do not repeat the same operation.
 n=int(input())
 x,y=1,1
 plans=input().split()
@@ -46,5 +47,5 @@ for plan in plans:
   x,y = nx,ny #reflect the potential coordinates
 
 print(x,y)
-'''
+
 
