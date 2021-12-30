@@ -25,5 +25,26 @@ for i in a:
 
 print(y,x) #O(len(a))
 
+''' fix the motion in list, and do not repeat the same operation.
+n=int(input())
+x,y=1,1
+plans=input().split()
 
+dx = [0,0,-1,1]
+dy = [-1,1,0,0]
+move_types=['L','R','U','D'] #fixed motion
+
+for plan in plans:
+  for i in range(len(move_types)):
+    if plan == move_types[i]: #check what plan is
+      nx = x+dx[i]
+      ny = y+dy[i] #potential coordinates
+
+  if nx<1 or ny<1 or nx>n or ny>n:
+    continue #not reflect the potential coordinates
+
+  x,y = nx,ny #reflect the potential coordinates
+
+print(x,y)
+'''
 
