@@ -1,6 +1,7 @@
+#find the coordinates of the last position
 
 l = int(input())
-a = list(input().split())
+a = list(input().split()) # L R U D
 
 x=1
 y=1
