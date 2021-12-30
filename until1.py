@@ -1,7 +1,7 @@
 '''
-naive approach
+naive approach, 2<=n<=100,000, 2<=k<=100,000
 '''
-''''
+'''
 n,k=map(int,input().split())
 count=0
 while n>1:
@@ -11,14 +11,14 @@ while n>1:
     n=n-1
   count+=1
 print(count)
-'''
+''' #O(klog_k_n), this is my guess about time complexity.
 
-
-n,k=map(int,input().split())
+#reduce the counting number of minus operation
+n,k=map(int,input().split()) 
 count=0
 while True:
   target=n//k*k
-  count+=n-target
+  count+=n-target #just count once !
   n=target
   count+=1
   n//=k
@@ -27,6 +27,6 @@ while True:
 
 
 count+=(n-1)
-print(count)
+print(count) #O(log_k_n)
 
 
