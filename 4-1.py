@@ -1,7 +1,7 @@
 #find the coordinates of the last position
 
 #1. naive version
-l = int(input())
+l = int(input()) #boundary
 a = list(input().split()) # L R U D
 
 x=1
@@ -27,7 +27,7 @@ for i in a:
 print(y,x) #O(len(a))
 
 #2. fix the motion in list, and do not repeat the same operation.
-n=int(input())
+n=int(input()) #boundary
 x,y=1,1
 plans=input().split()
 
