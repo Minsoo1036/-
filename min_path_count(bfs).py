@@ -33,7 +33,7 @@ def min_path_count(x,y): #입력값(1부터 시작)
         d[nx][ny]=d[x][y]+1
         queue.append((nx,ny))
 
-  return d[n-1][m-1]
+  return d[n-1][m-1] #O(N), 한번씩만 큐에 들어갈 수 있음.
 
 print(min_path_count(1,1))
 
