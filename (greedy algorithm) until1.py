@@ -17,8 +17,8 @@ print(count)
 n,k=map(int,input().split()) 
 count=0
 while True:
-  target=n//k*k
-  count+=n-target #just count once !
+  target=n//k*k #the core idea
+  count+=n-target #just count at one time !
   n=target
   count+=1
   n//=k
