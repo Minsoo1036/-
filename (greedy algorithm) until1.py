@@ -11,7 +11,7 @@ while n>1:
     n=n-1
   count+=1
 print(count)
-''' #O(klog_k_n), this is my guess about time complexity.
+''' #O(klog_k_n), I guess this time complexity is right.
 
 #reduce the counting number of minus operation
 n,k=map(int,input().split()) 
