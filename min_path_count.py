@@ -1,4 +1,4 @@
-#미로 탈출
+#미로 탈출 (1,1) to (m,n), 0은 벽, 1은 길
 from collections import deque
 
 n,m = map(int,input().split())
