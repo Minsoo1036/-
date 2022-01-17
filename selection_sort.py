@@ -1,4 +1,4 @@
-#selection sort (선택 정렬)
+#selection sort (선택 정렬) , O(N^2)
 
 array = [7,5,9,0,3,1,6,2,4,8]
 
