@@ -1,4 +1,4 @@
-#insertion sort (삽입 정렬)
+#insertion sort (삽입 정렬), O(N^2)
 
 array = [7,5,9,0,3,1,6,2,4,8]
 
