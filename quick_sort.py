@@ -1,4 +1,4 @@
-#Quick sort (퀵 정렬) , 호어 분할(Hoare Partition)
+#Quick sort (퀵 정렬) , 호어 분할(Hoare Partition), O(N^2), but 기댓값 : O(NlogN)
 
 
 array = [5,7,9,0,3,1,6,2,4,8]
